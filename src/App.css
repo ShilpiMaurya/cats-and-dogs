@@ -1,0 +1,42 @@
+.cat-image {
+  width: 500px;
+  height: 550px;
+  background-image: url("./images/cat-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.dog-image {
+  width: 500px;
+  height: 550px;
+  background-image: url("./images/puppy-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.dog-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.cat-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+h1 {
+  margin: 0px;
+  padding: 20px;
+}
+button {
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-display: 500px;
+}
